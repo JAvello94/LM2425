@@ -1,0 +1,143 @@
+html, body {
+    margin: 0 0;
+    padding: 0 0;
+}
+
+main {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+
+}
+
+
+header {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    background-color: black;
+    color: white;
+    height: 110px;
+    width: 100%;
+    padding: 0px;
+    margin: 0px;
+    
+
+}
+nav {
+    width: 55%;
+    margin: auto;
+    background-color: lightgray;
+    color: grey;
+}
+
+#icono {
+    width: 30px;
+    height: 30px;
+    padding-left: 20px;
+    padding-top: 10px;
+}
+
+#primero {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 22.5%
+    
+}
+
+#centro {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 55%;
+    vertical-align: text-bottom;
+    height: auto;
+    padding-top: 90px;
+}
+
+#partidos, #clasi, #noticias, #jugadores {
+    text-align: center;
+}
+
+#clasi {
+    border-bottom: 2px solid white;
+    margin-left: auto;
+    margin-right: auto;
+    
+}
+
+#partidos {
+    margin-right: auto;
+    margin-left: 0px;
+    width: 25%;
+}
+
+#noticias {
+    margin-right: auto;
+    margin-left: auto;
+    width: 25%;
+}
+
+#clasi {
+    margin-right: auto;
+    margin-left: auto;
+    width: 25%;
+}
+
+#jugadores {
+    margin-right: 0px;
+    margin-left: auto;
+    width: 25%;
+}
+
+#ultimo {
+    width: 22%;
+    text-align: right;
+    padding-right: -30px;
+}
+
+#icono2 {
+    width: 30px;
+    height: 30px;
+    padding-right: 20px;
+    padding-right: 10px;
+}
+
+article {
+    width: 55%;
+    margin: auto;
+}
+
+.logo {
+    width: 30px;
+    height: 30px;
+    vertical-align: sub;
+}
+
+.nombre {
+    width: 70%;
+    text-align: left;
+}
+
+table {
+    width: 100%;
+}
+
+td {
+    text-align: center;
+}
+
+tr {
+    height: fit-content;
+}
+
+th {
+    text-align: center;
+}
+
+hr {
+    width: 90%;
+    margin: auto;
+}
