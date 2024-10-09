@@ -18,8 +18,7 @@ main {
     display: flex;
     flex-wrap: wrap;
     flex-direction: row;
-    margin: 0 0;
-    padding: 0 0;
+    padding: 0;
     margin: auto;
 }
 
@@ -33,6 +32,7 @@ article {
     color: white;
     width: 30%;
     border: 2px dotted blueviolet;
+    height: 800px;
 }
 
 #biografia {
@@ -41,6 +41,39 @@ article {
 }
 
 nav {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
     width: 100%;
     background: linearlinear-gradient(to bottom right, blue, red);
+    margin: 0;
+    padding: 0;
+    color: white;
+}
+
+.navegacion {
+    background: linear-gradient(to left, red, black);
+    width: fit-content;
+    margin: auto;
+    border-radius: 10px;
+    text-align: center;
+}
+
+a {
+    color: white;
+    cursor: crosshair;
+}
+
+aside {
+    width: 39%;
+    background-color: black;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+
+}
+
+footer {
+    background: linear-gradient(to right, red, black);
+    height: fit-content;
 }
