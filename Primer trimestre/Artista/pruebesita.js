@@ -16,5 +16,5 @@ function adivinar() {
         salida ='${userInput} es correcto.';
     }
 
-    document.getElementById("intentos").innerHTML = '${salida}'
+    document.getElementById("intentos").innerHTML = '${salida} blblabl'
 }
