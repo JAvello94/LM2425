@@ -1,0 +1,33 @@
+¿Qué diferencias encontraste entre los tres métodos de aplicar CSS?
+	
+- Básicamente, uno te permite separar completamente los estilos del contenido y los otros dos no.
+
+¿Qué ventajas ves en usar CSS externo frente a los otros métodos?
+
+	-Lo dicho anteriormente, la principal ventaja es el orden.
+
+¿Por qué usarías una clase en lugar de un id?
+
+	-Para dar características comunes a varios elementos.
+
+Si cambias el estilo de h2 en el CSS, ¿cómo afecta eso a otros encabezados
+h2 en la página?
+
+	-En nada porque no hay más encabezados de nivel 2, si los hubiera los cambiaría todos al estilo definido en el css.
+
+¿Qué diferencias hay entre alinear texto usando CSS y hacerlo con HTML?
+
+    -La claridad en el documento y el orden.
+
+¿Cómo cambiarías los márgenes o el padding para mejorar el diseño de los
+párrafos?
+
+    -En el encabezado añadiria un poco de padding por la izquierda y en el segundo parrafo un poco de padding por la derecha.
+
+¿Por qué los selectores combinados son útiles?
+
+    -Porque te permite aplicar varios estilos comunes simultaneamente con menos codigo. Menos siempre es mejor.
+
+¿Cómo afecta la estructura HTML a los selectores que puedes usar?
+
+    -Puediera afectar si le damos un estilo al body por ejmplo y posteriormente a algun elemento hijo de este le aplicamos un estilo que entre en conflicto con el que esta en el body.
