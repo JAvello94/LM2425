@@ -58,7 +58,7 @@ nav {
     flex-direction: row;
     width: 98.5%;
     background: linearlinear-gradient(to bottom right, blue, red);
-    margin: 0;
+    margin: 0 0 5px;
     padding: 0;
     color: white;
 }
