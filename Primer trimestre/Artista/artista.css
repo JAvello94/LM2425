@@ -97,3 +97,14 @@ footer {
     text-align: center;
     border-radius: 20px;
 }
+
+.fotochicho {
+    width: 300px;
+    height: 200px;
+}
+
+#pfoto {
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+}
