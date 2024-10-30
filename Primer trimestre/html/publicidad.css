@@ -1,4 +1,11 @@
 #publi {
     position: fixed;
+    top: 0px;
+    left: 0px;
+    z-index: 1;
 }
 
+#texto {
+    position: relative;
+    top: 80px;
+}
